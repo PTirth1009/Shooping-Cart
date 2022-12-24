@@ -1,0 +1,115 @@
+.cart-items{
+    margin : 30px auto;
+    width: 50%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+.cart-items-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart-items-image{
+    width: 100px;
+    height: auto;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.cart-items-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+
+}
+
+.cart-items-name , .cart-items-function{
+    width: 25%;
+
+}
+
+.cart-items-add , .cart-items-remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart-items-add{
+    background-color: brown;
+
+
+}
+
+.cart-items-remove{
+    background-color: brown;
+}
+
+.cart-items-add:active{
+    transform: translateY(1.2px);
+}
+
+.cart-items-remove:active{
+    transform: translateY(1.2px);
+}
+
+.cart-items-delete{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+  
+.cart-items-d{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: brown;
+    /* margin-left: 100px; */
+    
+}
+
+.cart-items-total-price-name{
+    
+    display: flex;
+    padding-top: 20px;
+    padding-left: 175px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid black;
+
+}
+
+.cart-Items-total-price{
+    display: flex;
+    padding-left: 45%;
+}
